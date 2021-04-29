@@ -1,12 +1,11 @@
-
 import cv2
-import pandas
-image = "colorpic.jpg"
-img = cv2.imread(image, -1)
-cv2.imshow("image", img)
+import pandas as pd
 
-hii pari
+img_loc = "colorpic.jpg"
+img = cv2.imread(img_loc,-1)
+cv2.imshow("img", img)
 
-cv2.waitKey(0)
+
+cv2.waitKey(3000)
+
 cv2.destroyAllWindows()
-
